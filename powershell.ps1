@@ -12,6 +12,7 @@ Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' 
 Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -Name 'fAllowFullControl' -Value 1
 Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -Name 'fPromptForPassword' -Value 0
 
+Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -Name 'fSingleSessionPerUser' -Value 0
 Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
 
 $string_groups = Get-LocalGroup | Select Name; 
