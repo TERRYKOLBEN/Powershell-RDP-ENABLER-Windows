@@ -10,4 +10,7 @@ What you need?
 
 4. In Autostart, you need NGROK TCP Listener PORT 3389, and Telegram Message sender of NGROK Url (Or any other TunnelHost).
 
-5. Connect using IP:PORT , Username"RDPAdmin" , Password"default1337"
+5. Connect using IP:PORT
+
+**Username: RDPAdmin**
+**Password: default1337**
